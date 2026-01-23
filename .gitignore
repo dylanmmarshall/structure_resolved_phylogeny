@@ -1,0 +1,13 @@
+# Large data files (exceeds GitHub 100MB limit)
+9I4I_compound_contacts.npz
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
