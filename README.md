@@ -1,4 +1,4 @@
-# Contact-Weighted Mitochondrial Phylogenetics
+# Structure resolved phylogeny
 
 ## Overview
 
