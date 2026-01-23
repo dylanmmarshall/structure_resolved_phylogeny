@@ -16,7 +16,7 @@ For each mtDNA-encoded residue, compute total structural contacts:
 - Inter-mtDNA contacts (between mtDNA-encoded subunits)
 - Mito-nuclear contacts (between mtDNA and nuclear-encoded subunits)
 
-Downweight = 1 / (total_contacts per residue)
+Downweight = 1 / (total contacts per residue)
 
 ## References
 
