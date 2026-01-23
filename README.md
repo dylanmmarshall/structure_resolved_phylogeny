@@ -1,7 +1,5 @@
 # Contact-Weighted Mitochondrial Phylogenetics
 
-Phylogenetic analysis of human mitochondrial DNA using structural contact information from Complex I to weight sequence distances.
-
 ## Overview
 
 This project explores whether structural constraints in mitochondrial-encoded proteins can improve phylogenetic inference. The following is the key idea. Phylogenetic models, which take a multiple sequence alignment (MSA) as input, assume mutations occur independent of one another. Protein structure prediction, an adjacent field which also takes MSAs as input, makes use of covariation between residues to predict structure. These two fields are in conflict with one another. This small repository aims to demonstrate an attempt at purifying phylogenetic models of structural signal, which is indicative of such covariation. Phylogenetic trees generated from a UPGMA model are compared against a WPGMA model using a downweight coefficient vector that is inversely proportional to contact order. The tree topologies differ. 
