@@ -2,7 +2,7 @@
 
 ## Overview
 
-This miniproject explores whether structural information can be purified from a phylogenetic model. Phylogenetic models, which take a multiple sequence alignment (MSA) as input, assume mutations occur independent of one another. Protein structure prediction, an adjacent field which also takes MSAs as input, distill covariation between residues to predict structure. These two fields are in conflict with one another. This small repository is an attempt at purifying phylogenetic models of structural signal, which is indicative of such covariation. Phylogenetic trees generated from a UPGMA model are compared against a WPGMA model using a downweight coefficient vector that is inversely proportional to contact order. The tree topologies differ. 
+This miniproject explores whether structural information from can be minimized prior to phylogenetic modeling. Phylogenetic models, which take a multiple sequence alignment (MSA) as input, assume mutations occur independent of one another. Protein structure prediction, an adjacent field which also takes MSAs as input, distill covariation between residues to predict structure. These two fields are in conflict with one another. This small repository is an attempt at purifying phylogenetic models of structural signal, which is indicative of such covariation. Phylogenetic trees generated from a UPGMA model are compared against a WPGMA model using a downweight coefficient vector that is inversely proportional to contact order. The tree topologies differ. 
 
 **Data sources:**
 - [Ancient mtDNA Database (amtDB)](https://amtdb.org/) — 2,022 ancient human mtDNA sequences
