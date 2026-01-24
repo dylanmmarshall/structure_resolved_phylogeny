@@ -8,7 +8,7 @@ Future work might investigate a more appropriate time-dependent phylogenetic mod
 
 ### Data sources:
 - [Ancient mtDNA Database (amtDB)](https://amtdb.org/) — 2,022 ancient human mtDNA sequences
-- [PDB 9I4I](https://www.rcsb.org/structure/9I4I) — Human respiratory Complex I structure (45 subunits)
+- [PDB 9I4I](https://www.rcsb.org/structure/9I4I) — Human respiratory Complex I structure (7 mitochondria originating + 38 nuclear originating)
 - [rCRS (NC_012920.1)](https://www.ncbi.nlm.nih.gov/nuccore/NC_012920.1) — Revised Cambridge Reference Sequence
 
 ### files:
