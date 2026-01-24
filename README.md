@@ -11,7 +11,7 @@ Further solidification of this work, such as accounting for time and including m
 - [PDB 9I4I](https://www.rcsb.org/structure/9I4I) — Human respiratory complex I structure (7 mitochondria subunits + 38 nuclear subunits)
 - [rCRS (NC_012920.1)](https://www.ncbi.nlm.nih.gov/nuccore/NC_012920.1) — Revised Cambridge Reference Sequence
 
-### files:
+### Files:
 - [contact_map.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/contact_map.ipynb)
   - full contact map of 9I4I + downweight vector for each complex I mito subunit
 - [mt_data.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/mt_data.ipynb)
@@ -33,9 +33,9 @@ For each mtDNA-encoded residue, compute total structural contacts:
 - Inter-mtDNA contacts (between mtDNA-encoded subunits)
 - Mito-nuclear contacts (between mtDNA and nuclear-encoded subunits)
 
-Downweight = 1 / (total contacts per residue)
+downweight coefficient vector = 1 / (total contacts per residue)
 
-### Ongoing work
+### Ongoing work (20260123)
 
 - A more appropriate time-dependent phylogenetic model, such as a serial-sample WPGMA model
 - Additional analysis on those ancient mitochondrial genomes that were precluded due to sequence length mismatch with the reference
