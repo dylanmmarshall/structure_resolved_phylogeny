@@ -2,20 +2,20 @@
 
 ## Overview
 
-This miniproject explores whether confounding structural signal can be minimized in a phylogenetic model. Phylogenetic models, which take a multiple sequence alignment (MSA) as input, assume mutations occur independent of one another. Protein structure prediction, an adjacent field which also makes use of MSAs, functions by distilling covariation between residues to predict structure. These two fields are in conflict with one another. This repository's methodology is an attempt at purifying phylogenetic models of structural signal - which is indicative of such covariation. Phylogenetic trees from an unweighted hierarchical clustering model are compared against a weighted hierarchical clustering model that uses a downweight vector that is inversely proportional to contact order. The tree topologies differ. Ancient human mitochondrial genomes and the human Complex I heteromer are used as data.
+This miniproject explores whether confounding structural signal can be minimized in a phylogenetic model. Phylogenetic models, which take a multiple sequence alignment (MSA) as input, assume mutations occur independent of one another. Protein structure prediction, an adjacent field which also makes use of MSAs, functions by distilling covariation between residues to predict structure. These two fields are in conflict with one another. This repository's methodology is an attempt at purifying phylogenetic models of structural signal - which is indicative of such covariation. Phylogenetic trees from an unweighted hierarchical clustering model are compared against a weighted hierarchical clustering model that uses a downweight vector that is inversely proportional to contact order. The tree topologies differ. Ancient human mitochondrial genomes and the human complex I heteromer are used as data.
 
 Future work might investigate a more appropriate time-dependent phylogenetic model, such as a serial-sample WPGMA model. Additional analysis could also be done on the subset of ancient mitochondrial genomes that were precluded due to sequence length mismatch with the reference, which would entail using alignment tools to extract the relevant gene sequences rather than just relying on annotation file indices.
 
 ### Data sources:
 - [Ancient mtDNA Database (amtDB)](https://amtdb.org/) — 2,022 ancient human mtDNA sequences
-- [PDB 9I4I](https://www.rcsb.org/structure/9I4I) — Human respiratory Complex I structure (7 mitochondria subunits + 38 nuclear subunits)
+- [PDB 9I4I](https://www.rcsb.org/structure/9I4I) — Human respiratory complex I structure (7 mitochondria subunits + 38 nuclear subunits)
 - [rCRS (NC_012920.1)](https://www.ncbi.nlm.nih.gov/nuccore/NC_012920.1) — Revised Cambridge Reference Sequence
 
 ### files:
 - [contact_map.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/contact_map.ipynb)
-  - full contact map of 9I4I + downweight vector for each Complex I mito subunit
+  - full contact map of 9I4I + downweight vector for each complex I mito subunit
 - [mt_data.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/mt_data.ipynb)
-  - extraction / subsampling of Complex I genes from ancient mtDNA sequences
+  - extraction / subsampling of complex I genes from ancient mtDNA sequences
   - QC
 - [mt_phylo.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/mt_phylo.ipynb)
   - collation of data generated from previous two notebooks
