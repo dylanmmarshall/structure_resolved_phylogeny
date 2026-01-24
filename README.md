@@ -2,11 +2,6 @@
 
 **_Overview_** This project explores whether confounding structural signal can be minimized in a phylogenetic model. Phylogenetic models, which take a multiple sequence alignment (MSA) as input, assume mutations occur independent of one another. Protein structure prediction, an adjacent field which also makes use of MSAs, functions by distilling covariation between residues to predict structure. These two fields are in conflict with one another. This repository's methodology is an attempt at purifying phylogenetic models of structural signal - which is indicative of such covariation. Phylogenetic trees from an unweighted hierarchical clustering model are compared against a weighted hierarchical clustering model that uses a downweight vector that is one over the number of contacts per residue. The tree topologies differ. Ancient mitochondrial genomes and the mitochondria originating subunits of the complex I heteromer are used as data.
 
-  **_Downweight Justification_** Natural MSAs are a subsampling of a theoretically replete MSA, which would be constructed of all possible sequence variations composed of covariation that provide at least neutral fitness advantage. 
-
-
-the more i think about how {coevo} \subset {contacts} the more i begin to wonder if that is a result of MSAs themselves inherently existing as subsampled observations over all viable sequence space. in other words, a theoretically perfect MSA would be constructed of all possible sequence variations composed of nth-order covariation that provide at least neutral fitness advantage. a MRF applied to such an MSA might result in {coevo} equating {contacts}. upon such a supposition does the 1/(contact order) WPGMA method (gamma) actually provide a structure-enabled advantage over pure sequence based phylo approaches, as opposed to a decomposed-MRF-enabled strategy.
-
 Further solidification of this work, such as accounting for time and including more mitochondrial genome samples and including the rest of the mitochondrial genome sequence, might give rise to an improved definition of the human maternal haplotype.
 
 ### Data sources:
