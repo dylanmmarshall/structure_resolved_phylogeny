@@ -12,10 +12,18 @@ Future work might investigate a more appropriate time-dependent phylogenetic mod
 - [rCRS (NC_012920.1)](https://www.ncbi.nlm.nih.gov/nuccore/NC_012920.1) — Revised Cambridge Reference Sequence
 
 ### files:
-- [contact_map.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/contact_map.ipynb): full contact map of 9I4I + downweight vector for each Complex I mito subunit
-- [mt_data.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/mt_data.ipynb): extraction / subsampling of Complex I genes from ancient mtDNA sequences + QC
-- [mt_phylo.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/mt_phylo.ipynb): collation of data generated from previous two notebooks + sequence comparison of ancient mito genes versus reference gene at nucleotide and amino acid level + alignment of downweight vector against ancient mito gene sequences + weighted versus unweighted phylo tree generation / visualization
-- [notebook.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/mt_phylo.ipynb): deprecated R&D analysis
+- [contact_map.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/contact_map.ipynb)
+  - full contact map of 9I4I + downweight vector for each Complex I mito subunit
+- [mt_data.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/mt_data.ipynb)
+  - extraction / subsampling of Complex I genes from ancient mtDNA sequences
+  - QC
+- [mt_phylo.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/mt_phylo.ipynb)
+  - collation of data generated from previous two notebooks
+  - sequence comparison of ancient mito genes versus reference gene at nucleotide and amino acid level
+  - alignment of downweight vector against ancient mito gene sequences
+  - weighted versus unweighted phylo tree generation / visualization
+- [notebook.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/mt_phylo.ipynb)
+  - deprecated R&D analysis
   
 
 ### Contact-Based Downweighting
