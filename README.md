@@ -4,7 +4,7 @@
 
 This miniproject explores whether confounding structural signal can be minimized in a phylogenetic model. Phylogenetic models, which take a multiple sequence alignment (MSA) as input, assume mutations occur independent of one another. Protein structure prediction, an adjacent field which also makes use of MSAs, functions by distilling covariation between residues to predict structure. These two fields are in conflict with one another. This repository's methodology is an attempt at purifying phylogenetic models of structural signal - which is indicative of such covariation. Phylogenetic trees from an unweighted hierarchical clustering model are compared against a weighted hierarchical clustering model that uses a downweight vector that is inversely proportional to contact order. The tree topologies differ. Ancient mitochondrial genomes and the complex I heteromer are used as data.
 
-Further solidification of this work, such as accounting for time and including more mitochondrial genome samples from across time and space, could give rise to an improved definition of the human maternal haplotype.
+Further solidification of this work, such as accounting for time and including more mitochondrial genome samples, could give rise to an improved definition of the human maternal haplotype.
 
 ### Data sources:
 - [Ancient mtDNA Database (amtDB)](https://amtdb.org/) — 2,022 ancient human mtDNA sequences
