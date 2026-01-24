@@ -9,7 +9,7 @@ Further solidification of this work, such as accounting for time and including m
 ### Data sources:
 - [Ancient mtDNA Database (amtDB)](https://amtdb.org/) — 2,022 ancient human mtDNA sequences
 - [PDB 9I4I](https://www.rcsb.org/structure/9I4I) — human respiratory complex I structure (7 mitochondria subunits + 38 nuclear subunits)
-- [rCRS (NC_012920.1)](https://www.ncbi.nlm.nih.gov/nuccore/NC_012920.1) — Revised Cambridge Reference Sequence
+- [rCRS (NC_012920.1)](https://www.ncbi.nlm.nih.gov/nuccore/NC_012920.1) — revised cambridge reference sequence
 
 ### Files:
 - [contact_map.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/contact_map.ipynb)
