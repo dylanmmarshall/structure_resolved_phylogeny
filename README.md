@@ -18,7 +18,7 @@ Further solidification of this work, such as accounting for time and including m
   - extraction / subsampling of complex I genes from ancient mtDNA sequences
   - QC
 - [mt_phylo.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/mt_phylo.ipynb)
-  - collation of data generated from previous two notebooks
+  - reprocessing of data generated from previous two notebooks
   - sequence comparison of ancient mito genes versus reference gene at nucleotide and amino acid level
   - alignment of downweight vector against ancient mito gene sequences
   - weighted versus unweighted phylo tree generation / visualization
