@@ -47,4 +47,6 @@ downweight coefficient vector = 1 / (total contacts per residue)
 - Zhu et al. (2024) "Structure of human respiratory Complex I" [PDB 9I4I]
 - Ehler et al. (2019) "AmtDB: a database of ancient human mitochondrial genomes"
 
+---
+
 Note: not peer-reviewed work
