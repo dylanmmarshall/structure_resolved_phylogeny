@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project explores whether confounding structural signal can be minimized in a phylogenetic model. Phylogenetic models, which take a multiple sequence alignment (MSA) as input, assume mutations occur independent of one another. Protein structure prediction, an adjacent field which also makes use of MSAs, functions by distilling covariation between residues to predict structure. These two fields are in conflict with one another. This repository's methodology is an attempt at purifying phylogenetic models of structural signal - which is indicative of such covariation. Phylogenetic trees from an unweighted hierarchical clustering model are compared against a weighted hierarchical clustering model that uses a downweight vector that is the inverse of total contacts per residue. The tree topologies differ. Ancient mitochondrial genomes and the mitochondria-encoded subunits of the complex I heteromer were used as data.
+This project explores whether confounding structural signal can be minimized in a phylogenetic model. Phylogenetic models, which take a multiple sequence alignment (MSA) as input, assume mutations occur independent from one another. Protein structure prediction, an adjacent field which also makes use of MSAs, functions by identifying covariation between residues to predict structure. These two fields are in conflict with one another. This repository's methodology is an attempt at purifying phylogenetic models of structural signal - which is indicative of such covariation. Phylogenetic trees from an unweighted serial-sample neighbor joining model are compared against a weighted serial-sample neighbor joining model that uses a downweight vector that is inversely proportional to the total number of contacts per residue. The tree topologies differ. Ancient mitochondrial genomes and the mitochondria-encoded subunits of the complex I heteromer were used as data.
 
-Further solidification of this work, such as accounting for time in the phylogenetic model and including more mitochondrial genome samples and including the rest of the mitochondrial genome sequence, might give rise to an improved definition of the human maternal haplotype.
+Further solidification of this work, such as accounting for sample time measurement error in the phylogenetic model, including more mitochondrial genome samples, and including the rest of the mitochondrial genome sequence might give rise to an improved definition of the human maternal haplotype.
 
 ---
 
@@ -14,19 +14,19 @@ Further solidification of this work, such as accounting for time in the phylogen
 - [rCRS (NC_012920.1)](https://www.ncbi.nlm.nih.gov/nuccore/NC_012920.1) — revised cambridge reference sequence
 
 ### Files:
-- [contact_map.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/contact_map.ipynb)
+- contact_map.ipynb
   - full contact map of 9I4I + downweight vector for each complex I mito subunit
-- [mt_data.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/mt_data.ipynb)
+- mt_data.ipynb
   - extraction / subsampling of complex I genes from ancient mtDNA sequences
   - QC
-- [mt_phylo.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/mt_phylo.ipynb)
+- mt_phylo.ipynb
   - processing of data generated from previous two notebooks
   - sequence comparison of ancient mito genes versus reference gene at nucleotide and amino acid level
   - alignment of downweight vector against ancient mito gene sequences
   - weighted versus unweighted phylo tree generation / visualization
-- [data/amtdb_meta/amtdb_meta.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/data/amtdb_meta/amtdb_meta.ipynb)
+- data/amtdb_meta/amtdb_meta.ipynb
   - linked meta data for each ancient mtDNA genome
-- [notebook.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/mt_phylo.ipynb)
+- notebook.ipynb
   - deprecated R&D analysis
   
 ---
