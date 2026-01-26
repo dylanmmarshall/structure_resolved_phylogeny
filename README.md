@@ -45,8 +45,10 @@ downweight coefficient vector = 1 / (total contacts per residue)
 
 ## References
 
-- Zhu et al. (2024) "Structure of human respiratory Complex I" [PDB 9I4I]
+- Saitou & Nei, (1987) "The neighbor-joining method: a new method for reconstructing phylogenetic trees"
+- Drummond AJ, Rodrigo AG (2000) "Reconstructing genealogies of serial samples under the assumption of a molecular clock using serial-sample UPGMA"
 - Ehler et al. (2019) "AmtDB: a database of ancient human mitochondrial genomes"
+- Zhu et al. (2024) "Structure of human respiratory Complex I" [PDB 9I4I]
 
 ---
 

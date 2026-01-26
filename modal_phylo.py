@@ -2,8 +2,6 @@
 """
 Weighted Serial-Sample Neighbor-Joining (wsNJ) for ancient DNA phylogenetics.
 
-See NEW_PHYLO.md for detailed algorithm explanation and theory.
-
 Usage:
     from modal_phylo import run_wsnj_local, tree_to_linkage
 
