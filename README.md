@@ -40,7 +40,6 @@ downweight coefficient vector = 1 / (total contacts per residue)
 ### Ongoing work
 
 - A more appropriate time-dependent phylogenetic model, such as a serial-sample WPGMA model
-- Additional analysis on those ancient mitochondrial genomes that were precluded due to sequence length mismatch with the reference
 
 ## References
 
