@@ -24,6 +24,8 @@ Further solidification of this work, such as accounting for time in the phylogen
   - sequence comparison of ancient mito genes versus reference gene at nucleotide and amino acid level
   - alignment of downweight vector against ancient mito gene sequences
   - weighted versus unweighted phylo tree generation / visualization
+- [data/amtdb_meta/amtdb_meta.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/data/amtdb_meta/amtdb_meta.ipynb)
+  - linked meta data for each ancient mtDNA genome
 - [notebook.ipynb](https://github.com/dylanmmarshall/structure_resolved_phylogeny/blob/main/mt_phylo.ipynb)
   - deprecated R&D analysis
   
