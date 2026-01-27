@@ -39,11 +39,6 @@ For each mtDNA-encoded residue, compute total structural contacts:
 
 downweight coefficient vector = 1 / (total contacts per residue)
 
-### Ongoing work
-
-- Incorporating more mitochondrial genomes from across time and space
-- Trialing and modifying more contemporary phylogenetic modeling methods, such as BEAST2
-
 ## References
 
 - Saitou & Nei, (1987) "The neighbor-joining method: a new method for reconstructing phylogenetic trees"
