@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Structure-Resolved Phylogeny"
+message: "If you use or reference this work, please cite it as below."
+authors:
+  - family-names: Marshall
+    given-names: Dylan
+type: software
+date-released: 2026-01-26
+url: https://github.com/dylanmmarshall/structure_resolved_phylogeny
+keywords:
+  - phylogenetics
+  - structural biology
+  - ancient DNA
+  - mitochondrial DNA
+  - complex I
+  - contact map
+  - serial-sample
+license: Apache-2.0

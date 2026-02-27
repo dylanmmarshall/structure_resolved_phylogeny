@@ -46,6 +46,27 @@ downweight coefficient vector = 1 / (total contacts per residue)
 - Ehler et al. (2019) "AmtDB: a database of ancient human mitochondrial genomes"
 - Zhu et al. (2024) "Structure of human respiratory Complex I" [PDB 9I4I]
 
+## License
+
+Licensed under the [Apache License 2.0](LICENSE). See the [NOTICE](NOTICE) file for details.
+
+## Citation
+
+If you build upon the ideas or code in this repository, use or reference this work, please cite it. Click **"Cite this repository"** on the [GitHub page](https://github.com/dylanmmarshall/structure_resolved_phylogeny) for BibTeX/APA, or use:
+
+```bibtex
+@software{marshall2026structure_resolved_phylogeny,
+  title   = {Structure-Resolved Phylogeny},
+  author  = {Marshall, Dylan},
+  year    = {2026},
+  url     = {https://github.com/dylanmmarshall/structure_resolved_phylogeny}
+}
+```
+
 ---
 
 Note: not peer-reviewed work
+
+---
+
+Apache 2.0 license
