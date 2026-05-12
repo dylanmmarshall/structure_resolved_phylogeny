@@ -48,7 +48,7 @@ downweight coefficient vector = 1 / (total contacts per residue)
 
 ## License
 
-Licensed under the [Apache License 2.0](LICENSE).
+None. All rights reserved.
 
 ---
 
